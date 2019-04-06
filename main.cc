@@ -1,6 +1,10 @@
-#include <iostream>i
+#include <iostream>
 
 int main() {
-	std::cout << "Hello, World! It is First Project of mine" << std::endl;
+	int i = 0;
+	std::cout << "Hello, World!" << std::endl;
+	for (; i < 5; ++i) {
+		std::cout << i << std::endl;
+	} 
 	return 0;
 }
